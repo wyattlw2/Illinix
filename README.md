@@ -2,16 +2,16 @@ OVERVIEW
 -----
 This OS was created as a semester-long design project in ECE391 at UIUC. 
 
-Illinix is booted via GRUB inside of a QEMU virtual environment. Some details for QEMU setup are present in this repository, but downloading the required files may be impossible unless you have a registered NetID in ECE391. You will also need to, at minimum, change the target path of test_nodebug to the compiled MP3 image, which is system-dependent.
+Illinix is booted via GRUB inside a QEMU virtual machine. Some details for QEMU setup are present in this repository, but downloading the required files may be impossible unless you have a registered NetID in ECE391. You will also need to, at minimum, change the target path of test_nodebug to the compiled MP3 image, which is system-dependent.
 
-Some technical details about the operating system:
-* Uses IA-32 Intel Architecture
+Some technical details about the Illinix operating system:
+* Supported on IA-32 Intel Architecture
 * Interrupts supported via 8259A PIC
 * Round-robin scheduling policy implemented via PIT
 * Device drivers for keyboard, RTC, filesystem supported
 * Boots with various programs installed, including grep, cat, ls, and more
 * User can add their own user-level programs
-* User can run up to 6 programs at once between 3 terminals (ALT+F1/2/3 to switch)
+* User can run up to 6 programs at once between 3 terminals (ALT+F1/F2/F3 to switch)
 
 Advanced features that were implemented for extra credit:
 * Terminal history supported
