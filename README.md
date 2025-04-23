@@ -1,7 +1,6 @@
-![alt_text](https://repository-images.githubusercontent.com/797454851/c3a2b034-b22a-431d-97d8-6bfd04365032)
-
 OVERVIEW
 -----
+![alt_text](https://repository-images.githubusercontent.com/797454851/c3a2b034-b22a-431d-97d8-6bfd04365032)
 
 This OS was created as a semester-long design project in ECE391 at UIUC. 
 
